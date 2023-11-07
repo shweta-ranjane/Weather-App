@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Weather Application</title>
+</head>
+<body>
+	
+<div class="container">	
+	<div class="weather-app">
+		<h2 style="color: darkred;">WEATHER FORECAST
+			<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/c6023f30971807.563b2b13a55cc.gif" height="30px" width="30px"></h2>
+		<br/>
+		<div>
+			<label>ENTER CITY NAME:</label>
+			<input type="text" name="city" id="cityname" required>
+			<button type="button" onclick="fetchData()">Enter</button>
+	    </div>
+	    <br/>
+		<span><b>
+	<div class="span">
+		<span><img src="https://cdn-icons-png.flaticon.com/128/2169/2169320.png"height="20px" width="20px"> <b>CITY: </b><span id="city"></span></span><br>
+		<span><img src="https://cdn-icons-png.flaticon.com/128/1907/1907557.png"height="20px" width="20px">
+		<b>DESCRIPTION: </b><span id="desc">  </span></span><br>
+		<span><img src="https://cdn-icons-png.flaticon.com/128/5532/5532904.png"height="20px" width="20px">
+		<b>WIND SPEED: </b><span id="windspeed">  </span>  m/hr</span><br>
+		<span><img src="https://cdn-icons-png.flaticon.com/128/481/481431.png"height="20px" width="20px">
+		<b>TEMPERATURE: </b><span id="temp">  </span>  deg/cel</span><br>
+		<span><img src="https://cdn-icons-png.flaticon.com/128/5664/5664979.png"height="20px" width="20px">
+		<b>HUMIDITY: </b><span id="hum">  </span>  gm/m<sup>3</sup></span><br>
+	</div>
+</div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
